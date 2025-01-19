@@ -1,0 +1,44 @@
+.apart {
+    display: grid;
+    height: 350px;
+    width: 500px;
+    background-color: lightblue;
+    grid-template-rows: 70px 70px 70px 70px 70px;
+    grid-template-columns: 100px 100px 100px 100px 100px;
+}
+.apart .room{
+    border:1px solid black;
+    text-align: center;
+    font-size: 16px;;
+}
+.apart .room#liv{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: #74b9ff;
+}
+.apart .room#wash{
+    grid-row-start: 3;
+    background-color: #81ecec;
+}
+.apart .room#kit{
+    grid-column-start: 1;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    background-color: #ff7675;
+}
+.apart .room#bed{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 6;
+    background-color: #ffeaa7;
+}
+.apart .room#mast{
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 6;
+    background-color: #ffeaa7;
+}
