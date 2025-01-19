@@ -1,0 +1,21 @@
+.cont .items{
+    height:100px;
+    width:100px;
+    background-color:coral;
+    margin:15px;
+    text-align: center;
+    font-size:20px;
+}
+.cont{
+    display:grid;
+    height: 500px;
+    width: 250px;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    gap:10px;
+    background-color: lightblue;
+}
+.cont .items.one{
+    grid-row-start:3;
+    grid-column-start:2;
+}
